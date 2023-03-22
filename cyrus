@@ -18489,5 +18489,5 @@ _G.Settings = {
     ["Low Quality Parts"] = true -- Lower quality parts
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
-
-Notify("Notification", "SLAPPEDS CYRUS ON TOP", 5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreyLeakedYou/gun-skin-sh/main/gun"))()
+Notify("Notification", "SLAPPED & COREYS CYRUS ON TOP", 5)
